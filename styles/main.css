@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: rgb(253, 122, 214);
+    font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+.header{
+    background-color: rgb(92, 28, 65);
+    /* background-image: url(../images/3.jpg);
+    background-size: cover; */
+}
+.container{
+    max-width: 75%;/* от родительского класса headre */
+    margin: 0 auto;
+}
+.main-menu{
+     font-size: 30px; /*высота в котрую должны уместиться буквы */
+     font-weight: 900;
+     padding: 20px 0;
+}
+.main-menu a{
+    text-decoration: none;
+    color: rgb(29, 8, 18);
+    margin-right: 10px;
+}
+.main-menu a:hover{
+    color:rgb(116, 45, 79);
+    border-color: rgb(116, 45, 79);
+}
+main p{
+    text-align: justify; /* рястигавем текст чтобы не было обрывков*/
+}
+.avatar{
+    height: 350px;
+    text-align: center;
+    margin:  0; 
+    
+}
+.avatar img {
+    height: 100%;
+    width: 100%;
+}
+table {
+    width: 100%; /* Таблица будет занимать всю ширину контейнера */
+    border-collapse: collapse; /* Убирает промежутки между границами ячеек */
+    margin: 20px 0; /* Добавляем отступы сверху и снизу таблицы */
+    color: rgb(253, 122, 214); /* Цвет текста в таблице */
+}
+
+table, th, td {
+    border: 1px solid rgb(253, 122, 214); /* Задаём рамку для таблицы, заголовков и ячеек */
+}
+
+th, td {
+    padding: 12px; /*  внутренние отступы  */
+    text-align: center; 
+}
+
+th {
+    background-color: rgb(92, 28, 65); /* фоновый цвет для заголовков таблицы */
+    color: rgb(240, 192, 229); /* Цвет текста заголовков */
+}
+
+td {
+    background-color: rgb(29, 8, 18); /* Фон ячеек */
+}
+.btn{
+    text-decoration: none;
+    color: rgb(29, 8, 18);
+    font-weight: bold;
+    /* жирность */
+    border: 2px solid rgb(29, 8, 18);
+    /* для рамки */
+    padding: 10px;
+}
+/* при наведение */
+.btn:hover{
+    color:rgb(155, 97, 125);
+    border-color: rgb(155, 97, 125);
+}
+.footer{
+    background-color: rgb(92, 28, 65);
+    color: rgb(29, 8, 18);
+    padding-top: 2px;
+    padding-bottom: 20px;
+    /* расстояние от блоков внутри до footera */
+    margin-top: 2rem;
+    /* с соседними элементами  */
+}
+.text-center{
+   text-align: center; 
+}
+.py-5 {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
